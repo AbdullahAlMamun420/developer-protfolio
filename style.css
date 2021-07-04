@@ -55,5 +55,35 @@ p{
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+}
+.experiences-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 160px;
+    height: 700px;
+ 
+}
+.flex{
+    display: flex;
     
+}
+.experiences-item{
+   box-shadow:10px 10px 40px gray;
+   width:40%;
+   margin-left: 5%;
+   margin-right: 5%;
+   padding-left: 15px;
+   height: 450px;
+   border-radius: 4px;
+}
+#full-stack-developer{
+    border-left:7px solid;
+    border-image:linear-gradient(190deg,orange,tomato);
+    border-image-slice: 1;
+}
+#baby-developer{
+    border-left:7px solid;
+    border-image:linear-gradient(190deg,cyan,blue);
+    border-image-slice:1;
 }
