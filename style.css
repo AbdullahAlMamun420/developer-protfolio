@@ -50,3 +50,10 @@ p{
     border-radius: 5px;
 
 }
+.dream-big{
+    height: 900px;
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
